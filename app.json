@@ -4,17 +4,15 @@
     "slug": "voice-control-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "plugins": [
+      "@react-native-voice/voice"
+    ],
     "android": {
       "package": "com.voicecontrol.app",
       "permissions": [
         "RECORD_AUDIO",
-        "INTERNET",
-        "RECEIVE_BOOT_COMPLETED",
-        "FOREGROUND_SERVICE"
+        "INTERNET"
       ]
-    },
-    "plugins": [
-      "@react-native-voice/voice"
-    ]
+    }
   }
 }
